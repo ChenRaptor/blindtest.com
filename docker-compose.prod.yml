@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+  frontend.build:
+    container_name: frontend.build
+    build: .
+    restart: always #change if you don't want your container restarting
+    environment:
+      - NODE_ENV=production
+    ports:
+      - 4001:3000
