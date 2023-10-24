@@ -1,0 +1,11 @@
+.answer {
+    width: 80%;
+    margin: auto;
+    border: $border;
+    border-radius: $border-radius;
+    padding: 20px;
+}
+
+.answer > p {
+    text-align: justify;
+}

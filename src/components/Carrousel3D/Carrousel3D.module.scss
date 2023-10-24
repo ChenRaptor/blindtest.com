@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    gap: 250px;
+
+    &-button {
+        max-width: 150px;
+    }
+}
+
+.container {
+    position: relative;
+    bottom: 30px;
+    width: 100px;
+    perspective: 1000px;
+    transform: rotateX(-10deg);
+    transform-style: preserve-3d;
+}
+
+.carousel {
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform: rotateY(var(--rotation)); // Non nécessaire
+    -moz-transform: rotateY(var(--rotation));
+}
+
+.itembackside {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    transform: rotateY(var(--rotation2)) translateZ(calc(var(--gapCenter) - 1px));
+    transition: .5s;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(255,214,255,0.37);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.item {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    transition: .5s;
+    transform: rotateY(var(--rotation2)) translateZ(var(--gapCenter));
+    backface-visibility: hidden;
+
+    > h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 10px;
+        color: #000000e5;
+        background-color: white;
+    }
+}

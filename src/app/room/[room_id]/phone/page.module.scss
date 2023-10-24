@@ -1,0 +1,28 @@
+.main {
+    padding: $padding-phone;
+}
+
+.main > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main > form > input {
+    margin: 5vh 0 0 0;
+    padding: 3vw;
+    border: $border;
+    border-radius: $border-radius;
+}
+
+.main > form > p {
+    margin: 2vh;
+    text-align: center;
+}
+
+.main > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: small;
+}
