@@ -1,0 +1,18 @@
+.connected {
+    display: inline-block;
+}
+
+.connected > ul {
+    width: 15vw;
+    max-height: 30vh;
+    border: $border;
+    border-radius: $border-radius;
+    padding: 0 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.connected > ul > li {
+    list-style: none;
+    margin: 20px 10px;
+}

@@ -1,0 +1,338 @@
+{
+    "films": [
+        {
+            "title": "Avenger",
+            "date": 2011,
+            "poster": "./films/avenger.jpg",
+            "soundLink": "./sound/the_avengers.mp3"
+        },
+        {
+            "title": "Barbie",
+            "date": 2023,
+            "poster": "./films/barbie.jpg",
+            "soundLink": "./sound/barbie.mp3"
+        },
+        {
+            "title": "Fast & Furious X",
+            "date": 2023,
+            "poster": "./films/fast_and_furious.jpg",
+            "soundLink": "./sound/fast_and_furious.mp3"
+        },
+        {
+            "title": "Harry Potter",
+            "date": 2001,
+            "poster": "./films/harry_potter.jpg",
+            "soundLink": "./sound/harry_potter.mp3"
+        },
+        {
+            "title": "Oppenheimer",
+            "date": 2023,
+            "poster": "./films/oppenheimer.jpg",
+            "soundLink": "./sound/oppenheimer.mp3"
+        },
+        {
+            "title": "Pirates of the Caribbean",
+            "date": 2003,
+            "poster": "./films/pirates_of_the_caribbean.jpg",
+            "soundLink": "./sound/pirates_of_the_caribbean.mp3"
+        },
+        {
+            "title": "Spiderman",
+            "date": 2017,
+            "poster": "./films/spiderman.jpg",
+            "soundLink": "./sound/spiderman.mp3"
+        },
+        {
+            "title": "The Hobbit",
+            "date": 2012,
+            "poster": "./films/the_hobbit.jpg",
+            "soundLink": "./sound/the_hobbit.mp3"
+        },
+        {
+            "title": "The Lord of the Rings",
+            "date": 2001,
+            "poster": "./films/the_lord_of_the_rings.jpg",
+            "soundLink": "./sound/the_lord_of_the_rings.mp3"
+        },
+        {
+            "title": "The Wolf of Wall Street",
+            "date": 2013,
+            "poster": "./films/the_wolf_of_wall_street.jpg",
+            "soundLink": "./sound/the_wolf_of_wall_street.mp3"
+        }
+    ],
+    "series": [
+        {
+            "title": "Game of Throne",
+            "date": 2011,
+            "poster": "./series/got.jpg",
+            "soundLink": "./sound/got.mp3"
+        },
+        {
+            "title": "Halo",
+            "date": 2022,
+            "poster": "./series/halo.jpg",
+            "soundLink": "./sound/halo.mp3"
+        },
+        {
+            "title": "Lucifer",
+            "date": 2016,
+            "poster": "./series/lucifer.jpg",
+            "soundLink": "./sound/lucifer.mp3"
+        },
+        {
+            "title": "Peaky Blinders",
+            "date": 2015,
+            "poster": "./series/peaky_blinders.jpg",
+            "soundLink": "./sound/peaky_blinders.mp3"
+        },
+        {
+            "title": "Prison Break",
+            "date": 2005,
+            "poster": "./series/prison_break.jpg",
+            "soundLink": "./sound/prison_break.mp3"
+        },
+        {
+            "title": "Sherlock",
+            "date": 2010,
+            "poster": "./series/sherlock.jpg",
+            "soundLink": "./sound/sherlock.mp3"
+        },
+        {
+            "title": "The Walking Dead",
+            "date": 2010,
+            "poster": "./series/the_walking_dead.jpg",
+            "soundLink": "./sound/the_walking_dead.mp3"
+        },
+        {
+            "title": "The Witcher",
+            "date": 2007,
+            "poster": "./series/the_witcher.jpg",
+            "soundLink": "./sound/the_witcher.mp3"
+        },
+        {
+            "title": "Vikings",
+            "date": 2013,
+            "poster": "./series/vikings.jpg",
+            "soundLink": "./sound/vikings.mp3"
+        },
+        {
+            "title": "WestWorld",
+            "date": 2016,
+            "poster": "./series/westworld.jpg",
+            "soundLink": "./sound/westworld.mp3"
+        }
+    ],
+    "animes": [
+        {
+            "title": "Bleach",
+            "date": 2004,
+            "poster": "./animes/bleach.jpg",
+            "soundLink": "./sound/westworld.mp3"
+        },
+        {
+            "title": "Demon Slayer",
+            "date": 2019,
+            "poster": "./animes/demon_slayer.jpg",
+            "soundLink": "./sound/demon_slayer.mp3"
+        },
+        {
+            "title": "Dragon Ball",
+            "date": 1989,
+            "poster": "./animes/dragon_ball.jpg",
+            "soundLink": "./sound/dragon_ball.mp3"
+        },
+        {
+            "title": "Naruto",
+            "date": 2002,
+            "poster": "./animes/naruto.jpg",
+            "soundLink": "./sound/naruto.mp3"
+        },
+        {
+            "title": "One Piece",
+            "date": 1999,
+            "poster": "./animes/one_piece.jpg",
+            "soundLink": "./sound/one_piece.mp3"
+        },
+        {
+            "title": "Trigun Stamped",
+            "date": 2023,
+            "poster": "./animes/trigun_stamped.jpg",
+            "soundLink": "./sound/trigun_stamped.mp3"
+        },
+        {
+            "title": "Wakfu",
+            "date": 2008,
+            "poster": "./animes/wakfu.jpg",
+            "soundLink": "./sound/wakfu.mp3"
+        }
+    ],
+    "films_repliques": [
+        {
+            "title": "Avenger",
+            "date": 2011,
+            "poster": "./films/avenger.jpg",
+            "soundLink": "./sound/the_avengers.mp3"
+        },
+        {
+            "title": "Barbie",
+            "date": 2023,
+            "poster": "./films/barbie.jpg",
+            "soundLink": "./sound/barbie.mp3"
+        },
+        {
+            "title": "Fast & Furious X",
+            "date": 2023,
+            "poster": "./films/fast_and_furious.jpg",
+            "soundLink": "./sound/fast_and_furious.mp3"
+        },
+        {
+            "title": "Harry Potter",
+            "date": 2001,
+            "poster": "./films/harry_potter.jpg",
+            "soundLink": "./sound/harry_potter.mp3"
+        },
+        {
+            "title": "Oppenheimer",
+            "date": 2023,
+            "poster": "./films/oppenheimer.jpg",
+            "soundLink": "./sound/oppenheimer.mp3"
+        },
+        {
+            "title": "Pirates of the Caribbean",
+            "date": 2003,
+            "poster": "./films/pirates_of_the_caribbean.jpg",
+            "soundLink": "./sound/pirates_of_the_caribbean.mp3"
+        },
+        {
+            "title": "Spiderman",
+            "date": 2017,
+            "poster": "./films/spiderman.jpg",
+            "soundLink": "./sound/spiderman.mp3"
+        },
+        {
+            "title": "The Hobbit",
+            "date": 2012,
+            "poster": "./films/the_hobbit.jpg",
+            "soundLink": "./sound/the_hobbit.mp3"
+        },
+        {
+            "title": "The Lord of the Rings",
+            "date": 2001,
+            "poster": "./films/the_lord_of_the_rings.jpg",
+            "soundLink": "./sound/the_lord_of_the_rings.mp3"
+        },
+        {
+            "title": "The Wolf of Wall Street",
+            "date": 2013,
+            "poster": "./films/the_wolf_of_wall_street.jpg",
+            "soundLink": "./sound/the_wolf_of_wall_street.mp3"
+        }
+    ],
+    "series_repliques": [
+        {
+            "title": "Game of Throne",
+            "date": 2011,
+            "poster": "./series/got.jpg",
+            "soundLink": "./sound/got.mp3"
+        },
+        {
+            "title": "Halo",
+            "date": 2022,
+            "poster": "./series/halo.jpg",
+            "soundLink": "./sound/got.mp3"
+        },
+        {
+            "title": "Lucifer",
+            "date": 2016,
+            "poster": "./series/lucifer.jpg",
+            "soundLink": "./sound/lucifer.mp3"
+        },
+        {
+            "title": "Peaky Blinders",
+            "date": 2015,
+            "poster": "./series/peaky_blinders.jpg",
+            "soundLink": "./sound/peaky_blinders.mp3"
+        },
+        {
+            "title": "Prison Break",
+            "date": 2005,
+            "poster": "./series/prison_break.jpg",
+            "soundLink": "./sound/prison_break.mp3"
+        },
+        {
+            "title": "Sherlock",
+            "date": 2010,
+            "poster": "./series/sherlock.jpg",
+            "soundLink": "./sound/sherlock.mp3"
+        },
+        {
+            "title": "The Walking Dead",
+            "date": 2010,
+            "poster": "./series/the_walking_dead.jpg",
+            "soundLink": "./sound/the_walking_dead.mp3"
+        },
+        {
+            "title": "The Witcher",
+            "date": 2007,
+            "poster": "./series/the_witcher.jpg",
+            "soundLink": "./sound/the_witcher.mp3"
+        },
+        {
+            "title": "Vikings",
+            "date": 2013,
+            "poster": "./series/vikings.jpg",
+            "soundLink": "./sound/vikings.mp3"
+        },
+        {
+            "title": "WestWorld",
+            "date": 2016,
+            "poster": "./series/westworld.jpg",
+            "soundLink": "./sound/westworld.mp3"
+        }
+    ],
+    "animes_repliques": [
+        {
+            "title": "Bleach",
+            "date": 2004,
+            "poster": "./animes/bleach.jpg",
+            "soundLink": "./sound/westworld.mp3"
+        },
+        {
+            "title": "Demon Slayer",
+            "date": 2019,
+            "poster": "./animes/demon_slayer.jpg",
+            "soundLink": "./sound/demon_slayer.mp3"
+        },
+        {
+            "title": "Dragon Ball",
+            "date": 1989,
+            "poster": "./animes/dragon_ball.jpg",
+            "soundLink": "./sound/dragon_ball.mp3"
+        },
+        {
+            "title": "Naruto",
+            "date": 2002,
+            "poster": "./animes/naruto.jpg",
+            "soundLink": "./sound/naruto.mp3"
+        },
+        {
+            "title": "One Piece",
+            "date": 1999,
+            "poster": "./animes/one_piece.jpg",
+            "soundLink": "./sound/one_piece.mp3"
+        },
+        {
+            "title": "Trigun Stamped",
+            "date": 2023,
+            "poster": "./animes/trigun_stamped.jpg",
+            "soundLink": "./sound/trigun_stamped.mp3"
+        },
+        {
+            "title": "Wakfu",
+            "date": 2008,
+            "poster": "./animes/wakfu.jpg",
+            "soundLink": "./sound/wakfu.mp3"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+.choicelist > h2 {
+    margin: 15vh 0 0 0;
+}
+
+.choicelist > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vh 0;
+}
+
+.choicelist > ul > button {
+    width: 35vw;
+    padding: 1vh;
+    margin: 5vh 0;
+    cursor: pointer;
+}
