@@ -15,3 +15,54 @@ services:
       - /app/.next
     ports:
       - 4000:3000
+  mongo:
+    build: ./docker/db
+    restart: always
+    ports:
+      - '27017:27017'
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongo
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: mongo
+      MONGO_REPLICA_HOST: localhost
+      MONGO_REPLICA_PORT: "27017"
+#   mongo1:
+#     container_name: mongo1
+#     image: mongo:7.0
+#     volumes:
+#       - ~/mongors/data1:/data/db
+#       - ./rs-init.sh:/scripts/rs-init.sh
+#     networks:
+#       - mongors-network
+#     ports:
+#       - 27021:27017
+#     links:
+#       - mongo2
+#       - mongo3
+#     restart: always
+#     entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "dbrs" ]
+#   mongo2:
+#     container_name: mongo2
+#     image: mongo:7.0
+#     volumes:
+#       - ~/mongors/data2:/data/db
+#     networks:
+#       - mongors-network
+#     ports:
+#       - 27022:27017
+#     restart: always
+#     entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "dbrs" ]
+#   mongo3:
+#     container_name: mongo3
+#     image: mongo:7.0
+#     volumes:
+#       - ~/mongors/data3:/data/db
+#     networks:
+#       - mongors-network
+#     ports:
+#       - 27023:27017
+#     restart: always
+#     entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "dbrs" ]
+# networks:
+#   mongors-network:
+#     driver: bridge
